@@ -1,0 +1,44 @@
+Script started on Mon 21 Nov 2022 05:44:39 AM EST
+[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[1;30m([0;36mMon Nov-11[1;32m 5:44:39am[1;30m)-([0;35mCPU 9.0%[1;30m:[0;35m0[1;30m:[0;35mNet 590[1;30m)-([0;31mhm9650@warrior[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m608K[1;30m:[0;32m9[1;30m)
+[0;32m>[0m exit[C[Csrun -q debug -t 10:0 --pty bash[C[Cexit[K[C[Csrun -q debug -t 10:0 --pty bash[C[Cexit[K[C[Csbatch job-script-serial.sh [C[Cexit[K[C[Csrun -q debug -t 10:0 --pty bash
+[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[1;30m([0;36mMon Nov-11[1;32m 5:45:05am[1;30m)-([0;35mCPU 38.7%[1;30m:[0;35m0[1;30m:[0;35mNet 149[1;30m)-([0;31mhm9650@asx1[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m608K[1;30m:[0;32m9[1;30m)
+[0;32m>[0m make
+/opt/ohpc/pub/mpi/openmpi3-gnu7/3.1.0/bin/mpicc -o add_matrix_mpi add_matrix_mpi.c
+[1;30m([0;36mMon Nov-11[1;32m 5:45:11am[1;30m)-([0;35mCPU 38.7%[1;30m:[0;35m0[1;30m:[0;35mNet 155[1;30m)-([0;31mhm9650@asx1[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m608K[1;30m:[0;32m9[1;30m)
+[0;32m>[0m exit
+exit
+[1;30m([0;36mMon Nov-11[1;32m 5:45:16am[1;30m)-([0;35mCPU 9.0%[1;30m:[0;35m0[1;30m:[0;35mNet 581[1;30m)-([0;31mhm9650@warrior[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m608K[1;30m:[0;32m9[1;30m)
+[0;32m>[0m srun -q debug -t 10:0 --pty bash[C[Cexit[K[C[Csbatch job-script-serial.sh .sh[K-serial.sh .sh[K
+Submitted batch job 7448913
+[1;30m([0;36mMon Nov-11[1;32m 5:45:41am[1;30m)-([0;35mCPU 9.0%[1;30m:[0;35m0[1;30m:[0;35mNet 572[1;30m)-([0;31mhm9650@warrior[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m608K[1;30m:[0;32m9[1;30m)
+[0;32m>[0m sbatch job-script.sh
+Submitted batch job 7448914
+[1;30m([0;36mMon Nov-11[1;32m 5:46:21am[1;30m)-([0;35mCPU 9.0%[1;30m:[0;35m0[1;30m:[0;35mNet 570[1;30m)-([0;31mhm9650@warrior[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m25M[1;30m:[0;32m12[1;30m)
+[0;32m>[0m sbatch job-script.sh
+Submitted batch job 7448915
+[1;30m([0;36mMon Nov-11[1;32m 5:46:37am[1;30m)-([0;35mCPU 9.0%[1;30m:[0;35m0[1;30m:[0;35mNet 568[1;30m)-([0;31mhm9650@warrior[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m25M[1;30m:[0;32m14[1;30m)
+[0;32m>[0m sbatch job-script.sh[C[C[Crun -q debug -t 10:0 --pty bash[C[Cexit[K[C[Csrun -q debug -t 10:0 --pty bash
+[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[?1034h[1;30m([0;36mMon Nov-11[1;32m 5:47:36am[1;30m)-([0;35mCPU 29.9%[1;30m:[0;35m0[1;30m:[0;35mNet 108[1;30m)-([0;31mhm9650@asx15[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m25M[1;30m:[0;32m16[1;30m)
+[0;32m>[0m exit[C[Cmake[C[Cexit[C[Csrun -q debug -t 10:0 --pty bash[C[Cexit[K[C[Csrun -q debug -t 10:0 --pty bash[C[Cexit[K[C[Csbatch job-script-serial.sh [C[C[Crun -q debug -t 10:0 --pty bash[C[C[C[12Pbatch job-script.sh[C[Cmake[K[C[Cexit[C[Cgcc -o add_matrix_serial add_matrix_serial.c [C[Cexit[K[C[Cgcc -o add_matrix_serial add_matrix_serial.c 
+[1;30m([0;36mMon Nov-11[1;32m 5:47:46am[1;30m)-([0;35mCPU 29.9%[1;30m:[0;35m0[1;30m:[0;35mNet 113[1;30m)-([0;31mhm9650@asx15[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m25M[1;30m:[0;32m16[1;30m)
+[0;32m>[0m exit
+exit
+[1;30m([0;36mMon Nov-11[1;32m 5:47:55am[1;30m)-([0;35mCPU 9.0%[1;30m:[0;35m0[1;30m:[0;35mNet 569[1;30m)-([0;31mhm9650@warrior[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m25M[1;30m:[0;32m16[1;30m)
+[0;32m>[0m srun -q debug -t 10:0 --pty bash[C[C[C[12Pbatch job-script.sh[K[K[K-serial.sh 
+Submitted batch job 7448917
+[1;30m([0;36mMon Nov-11[1;32m 5:48:09am[1;30m)-([0;35mCPU 9.0%[1;30m:[0;35m0[1;30m:[0;35mNet 572[1;30m)-([0;31mhm9650@warrior[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m25M[1;30m:[0;32m16[1;30m)
+[0;32m>[0m sbatch job-script-serial.sh 
+Submitted batch job 7448918
+[1;30m([0;36mMon Nov-11[1;32m 5:48:17am[1;30m)-([0;35mCPU 9.0%[1;30m:[0;35m0[1;30m:[0;35mNet 570[1;30m)-([0;31mhm9650@warrior[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m49M[1;30m:[0;32m19[1;30m)
+[0;32m>[0m sbatch job-script-serial.sh 
+sbatch: error: Batch job submission failed: Socket timed out on send/recv operation
+[1;30m([1;31mERROR[1;30m)-([0;31mExit Code [1;31m1[1;30m)-([0;31mGeneral error[1;30m)[0m
+[1;30m([0;36mMon Nov-11[1;32m 5:49:03am[1;30m)-([0;35mCPU 9.0%[1;30m:[0;35m0[1;30m:[0;35mNet 566[1;30m)-([0;31mhm9650@warrior[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m50M[1;30m:[0;32m21[1;30m)
+[0;32m>[0m sbatch job-script-serial.sh 
+sbatch: error: Batch job submission failed: Socket timed out on send/recv operation
+[1;30m([1;31mERROR[1;30m)-([0;31mExit Code [1;31m1[1;30m)-([0;31mGeneral error[1;30m)[0m
+[1;30m([0;36mMon Nov-11[1;32m 5:49:56am[1;30m)-([0;35mCPU 9.0%[1;30m:[0;35m0[1;30m:[0;35mNet 569[1;30m)-([0;31mhm9650@warrior[1;30m:[0;33m~/parallel_programming/assignment_5[1;30m)-([0;32m50M[1;30m:[0;32m23[1;30m)
+[0;32m>[0m exit
+exit
+
+Script done on Mon 21 Nov 2022 05:50:45 AM EST

@@ -1,0 +1,6 @@
+Serial program exec time(avg. of 3 runs) = 0.100752
+MPI program exec time(avg. of 3 runs) = 0.090429
+
+Speedup = 1.1142
+
+Note: In Output.txt, there is sbatch error of 2 of the serial runs, however serial programm was completed succefull with time info, so I have kept thos runs.
